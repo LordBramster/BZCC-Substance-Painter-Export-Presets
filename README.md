@@ -39,7 +39,8 @@ There are two major instances when you'd export from Substance Painter (in this 
 - Generating a usable Normal Map from the Height Map data. This can be used to bake.
 - Generating final texture maps, with BZCC PBR SpecGloss properties configured.
 
-First, we need to find where to export textures. Conveniently it is called "Export Textures" on the top Toolbar.
+### Getting There
+We need to find where to export textures. Conveniently it is called "Export Textures" on the top Toolbar.
 - **Select** Export Textures _(ctrl+shift+e)_
 <img width=40% src="assets/demo1.JPG">
 
