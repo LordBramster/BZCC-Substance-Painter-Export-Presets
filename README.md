@@ -3,6 +3,7 @@
 <br>
 
 # PBR SpecGloss Export Setting Presets for BZCC
+You won't have to make these two presets from scratch! Just use the templates provided below to setup PBR SpecGloss properties for Battlezone Combat Commander.
 
 <br>
 
@@ -12,7 +13,7 @@ Download the necessary preset files:
 - [Height-Normals Preset](BZCC-Height-Normals-Export.spexp)
 - [SpecGloss Maps Preset](BZCC-PBR-SpecGloss-Export.spexp)
 
-_These files were made by me, however the information to make and save these presets were given by various BZCC Community Member. Those had prior knowledge with Substance Painter, so all credit is due to them. Thank you to those for sharing the knowledge that has gotten us all this far._
+_These files were made by me, however the information to make and save these presets were given by various BZCC Community Members. Those had prior knowledge with Substance Painter, so all credit is due to them. Thank you to those for sharing the knowledge that has gotten us all this far._
 
 <br>
 
@@ -34,9 +35,9 @@ _These files were made by me, however the information to make and save these pre
 ## Demonstration
 _(This was demonstrated using the Steam Version)_
 
-There are two major instances when you'd export from Substance Painter (in this case):
-- Generating a usable Normal Map from the Height Map data
-- Generating final texture maps to be used with BZCC.
+There are two major instances when you'd export from Substance Painter (in this context):
+- Generating a usable Normal Map from the Height Map data. This can be used to bake.
+- Generating final texture maps, with BZCC PBR SpecGloss properties configured.
 
 First, we need to find where to export textures. Conveniently it is called "Export Textures" on the top Toolbar.
 - **Select** Export Textures _(ctrl+shift+e)_
@@ -50,7 +51,7 @@ Once you have created your Height map, you will want to convert it to a Normal M
 - When you're ready, **select** "Export".
 <img width=50% src="assets/demo2.JPG">
 
-### Bake Texture Maps (Diffuse, Normal, SpecGloss, Emissive)
+### Bake General Texture Maps (Diffuse, Normal, SpecGloss, Emissive)
 After you are done texturing, and want to export these textures for Battlezone Combat Commander:
 - **Select** the field called "Output Template".
 - **Choose** `BZCC-PBR-SpecGloss-Export`
