@@ -9,9 +9,13 @@ You won't have to make these two presets from scratch! Just use the templates pr
 
 ## Getting Started
 
-Download the necessary preset files:
+Download the necessary preset files. 
+You can also browse or download the specific presets as you wish in the [Releases](https://github.com/LordBramster/BZCC-Substance-Painter-Export-Presets/releases) tab.
+
+Or, you can download them from here:
 - [Height-Normals Preset](BZCC-Height-Normals-Export.spexp)
 - [SpecGloss Maps Preset](BZCC-PBR-SpecGloss-Export.spexp)
+
 
 _These files were made by me, however the information to make and save these presets were given by various BZCC Community Members. Those had prior knowledge with Substance Painter, so all credit is due to them. Thank you to those for sharing the knowledge that has gotten us all this far._
 
